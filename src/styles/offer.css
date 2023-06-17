@@ -1,0 +1,75 @@
+.offerContainer{
+    display: flex;
+    justify-content: center;
+}
+.offerMini{
+    width: 100%;
+    max-width: 1024px;
+}
+.cardHolder{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.cards{
+    /* border: 1px solid black; */
+    /* box-shadow: 1px 1px 1px 1px gray; */
+    box-shadow: -6px 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+
+    width: 48%;
+    height: 170px;
+    border-radius: 7px;
+    padding-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* line-height: 0.2;
+    position: relative; */
+}   
+/* .cardsText{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -62px;
+}*/ 
+.text{
+    /* line-height:2.cm; */
+    display: flex;
+}
+.text p{
+    margin-top: 1px;
+}
+.antBtn{
+    width: 140px;
+}
+.cards1{
+    box-shadow: -6px 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+
+    width: 48%;
+    height: 170px;
+    border-radius: 7px;
+    padding-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.cards1 button{
+    width: 170px;
+    margin-top: -1px;
+}
+.cards1 p{
+    margin-top: -7px;
+
+}

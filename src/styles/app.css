@@ -1,0 +1,37 @@
+.addvertise{
+    display: flex;
+    justify-content: center;
+}
+.mini-addvertise{
+    width: 100%;
+    max-width: 1024px;
+    border: 1px solid rgba(156, 152, 152, 0.466);
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+}
+.image img{
+    width: 200px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text p{
+    margin-top: -8px;
+}
+.text button{
+    /* border-color: rgba(9, 112, 144, 0.569); */
+    font-weight: 700;
+}
+.text button:hover{
+    background-color:rgba(125, 200, 223, 0.364) ;
+}
+.text.btn{
+    border-color: rgba(9, 112, 144, 0.569);
+
+}
+.text.btn:hover{
+    border-color: rgba(9, 112, 144, 0.569);
+
+}

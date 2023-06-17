@@ -1,0 +1,14 @@
+.collapse-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.collapse-mini{
+    width: 100%;
+    max-width: 1024px;
+
+}
+.panel{
+    font-weight: 700;
+}

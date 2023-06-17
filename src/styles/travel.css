@@ -1,0 +1,23 @@
+.Travellers{
+    display: flex;
+    justify-content: center;
+}
+.travellersMini{
+    width: 100%;
+    max-width: 1024px;
+    /* display: flex; */
+}
+.travelList{
+    display: flex;
+    gap: 14px;
+}
+.travelList img{
+    border-radius: 10px;
+    width: 200px;
+}
+.travelList h3{
+    margin-top: -2px;
+}
+.travelList p{
+    margin-top: -10px;
+}

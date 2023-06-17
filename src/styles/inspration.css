@@ -1,0 +1,40 @@
+.insprationContainer{
+    display: flex;
+    justify-content: center;
+}
+.insprationMini{
+    width: 100%;
+    max-width: 1024px;
+}
+.imageContainer{
+    display: flex;
+    /* gap: 15px; */
+    gap: 15px;
+}
+.bigImg{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid black; */
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/4K-Travel-Wallpaper-HD-Free-download.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bigImg h3{
+    color: white;
+    margin-top: 47%;
+    padding-left: 4px;
+}
+.bigImg p{
+    color: white;
+    font-size: 14px;
+    padding-left: 4px;
+    margin-top: -10px;
+}
+.smallImg{
+    display: flex;
+}
+.oneImg img{
+    width: 200px;
+    margin-left: 40px;
+}

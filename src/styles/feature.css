@@ -1,0 +1,47 @@
+.featured{
+    display: flex;
+    gap: 45px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1024px;
+}
+.sliderContainer{
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+    /* background-color: black; */
+
+}
+.subContainer{
+    width: 100%;
+    max-width: 1024px;
+    /* color: black; */
+
+}
+.miniContainer{
+    display: flex;
+    /* color: black; */
+    /* gap: 5px; */
+
+}
+.miniContainer img{
+    width: 100px;
+    height: 30px;
+}
+.miniContainer h3{
+    margin-top: 1px;
+}
+.miniContainer p{
+    margin-top: -11px;
+}
+.details h3{
+    margin-top: 1px;
+
+}
+.details p{
+    margin-top: -11px;
+
+}
+.details img{
+    border-radius: 5px;
+}

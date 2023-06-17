@@ -1,0 +1,15 @@
+.exploreContainer{
+    display: flex;
+    justify-content: center;
+}
+.exploreMini{
+    width: 100%;
+    max-width: 1024px;
+}
+.Result h4{
+    margin-top: 2px;
+    /* color: red; */
+}
+.Result p{
+    margin-top: -13px;
+}
